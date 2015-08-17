@@ -79,11 +79,11 @@ public class TimeAndDateHandlerTest
         System.out.println("getTime");
         TimeAndDateHandler instance = new TimeAndDateHandler();
         
-        //Uncomment to pass test...
-        //String expResult = timeFormat.format(theDate);
+        //Uncomment to pass test... x
+        String expResult = timeFormat.format(theDate);
         
-        // Comment out to pass test...
-        String expResult = "";
+        // Comment out to pass test... x
+        //String expResult = "";
         String result = instance.getTime();
         assertEquals(expResult, result);
     }
