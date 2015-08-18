@@ -31,7 +31,7 @@ public class TimeAndDateHandler
     
     public  String  getTime()
     {
-        DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm");
         theDate = new Date();
         System.out.println(dateFormat.format(theDate)); //2014/08/06 15:59:48
         
